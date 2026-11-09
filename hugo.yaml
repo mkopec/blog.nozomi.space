@@ -1,0 +1,53 @@
+baseURL: https://blog.nozomi.space/
+languageCode: en-us
+title: blog.nozomi.space
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # needed for search
+
+params:
+  env: production
+  description: "a collection of random thoughts"
+  author: mkopec
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  socialIcons:
+    - name: github
+      url: "https://github.com/mkopec"
+    - name: rss
+      url: "/index.xml"
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
