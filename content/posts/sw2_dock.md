@@ -244,3 +244,8 @@ works normally with my PC and my phone.
 
 Shoutout to VIA and Realtek for putting 8051 chips in there since it makes
 hacking much simpler and more accessible :)
+
+## Update: Code is now public!
+
+I have uploaded the patcher to https://github.com/mkopec/switch2-hub-patcher .
+Feel free to test it out!
